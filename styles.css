@@ -1,0 +1,46 @@
+body {
+    background-image: url('background-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.225);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
